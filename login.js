@@ -10,17 +10,17 @@ function showAndHidePassword(input, button) {
 }
 
 function show() {
-    showAndHidePassword('inp1', 'btn1');
+    showAndHidePassword('inputPassword', 'btn1');
 }
 
 function display() {
-    showAndHidePassword('inp2', 'btn2');
+    showAndHidePassword('confirmPassword', 'btn2');
 }
 
 
 function login() {
-    let pass1 = document.getElementById('inp1');
-    let pass2 = document.getElementById('inp2');
+    let pass1 = document.getElementById('inputPassword');
+    let pass2 = document.getElementById('confirmPassword');
 
     if (pass1.value === '' && pass2.value === '') {
         alert('Please enter your password')
