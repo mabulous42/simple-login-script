@@ -1,23 +1,41 @@
+function showAndHidePassword(input, button) {
+    if (document.getElementById(input).type == "password") {
+        document.getElementById(input).type = "text";
+        document.getElementById(button).innerHTML = 'Hide';
+    }
+    else {
+        document.getElementById(input).type = "password";
+        document.getElementById(button).innerHTML = 'Show';
+    }
+}
+
 function show() {
-    if (document.getElementById('inp1').type == "password") {
-        document.getElementById('inp1').type = "text";
-        document.getElementById('btn1').innerHTML = 'Hide';
-    }
-    else {
-        document.getElementById('inp1').type = "password";
-        document.getElementById('btn1').innerHTML = 'Show';
-    }
+    showAndHidePassword('inp1', 'btn1');
 }
+
 function display() {
-    if (document.getElementById('inp2').type == "password") {
-        document.getElementById('inp2').type = "text";
-        document.getElementById('btn2').innerHTML = 'Hide';
-    }
-    else {
-        document.getElementById('inp2').type = "password";
-        document.getElementById('btn2').innerHTML = 'Show';
-    }
+    showAndHidePassword('inp2', 'btn2');
 }
+// function show() {
+//     if (document.getElementById('inp1').type == "password") {
+//         document.getElementById('inp1').type = "text";
+//         document.getElementById('btn1').innerHTML = 'Hide';
+//     }
+//     else {
+//         document.getElementById('inp1').type = "password";
+//         document.getElementById('btn1').innerHTML = 'Show';
+//     }
+// }
+// function display() {
+//     if (document.getElementById('inp2').type == "password") {
+//         document.getElementById('inp2').type = "text";
+//         document.getElementById('btn2').innerHTML = 'Hide';
+//     }
+//     else {
+//         document.getElementById('inp2').type = "password";
+//         document.getElementById('btn2').innerHTML = 'Show';
+//     }
+// }
 
 
 
