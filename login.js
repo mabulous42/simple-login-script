@@ -10,11 +10,11 @@ function showAndHidePassword(input, button) {
 }
 
 function show() {
-    showAndHidePassword('inputPassword', 'btn1');
+    showAndHidePassword('inputPassword', 'firstShowAndHideButton');
 }
 
 function display() {
-    showAndHidePassword('confirmPassword', 'btn2');
+    showAndHidePassword('confirmPassword', 'secondShowAndHideButton');
 }
 
 
