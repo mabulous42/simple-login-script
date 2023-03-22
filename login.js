@@ -16,27 +16,6 @@ function show() {
 function display() {
     showAndHidePassword('inp2', 'btn2');
 }
-// function show() {
-//     if (document.getElementById('inp1').type == "password") {
-//         document.getElementById('inp1').type = "text";
-//         document.getElementById('btn1').innerHTML = 'Hide';
-//     }
-//     else {
-//         document.getElementById('inp1').type = "password";
-//         document.getElementById('btn1').innerHTML = 'Show';
-//     }
-// }
-// function display() {
-//     if (document.getElementById('inp2').type == "password") {
-//         document.getElementById('inp2').type = "text";
-//         document.getElementById('btn2').innerHTML = 'Hide';
-//     }
-//     else {
-//         document.getElementById('inp2').type = "password";
-//         document.getElementById('btn2').innerHTML = 'Show';
-//     }
-// }
-
 
 
 function login() {
