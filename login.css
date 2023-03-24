@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.big-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+}
+
+.small-container{
+    width: 50vh;
+    background-color: rgb(38, 116, 73);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px rgba(63, 61, 61, 0.096);
+}
+
+.header{
+    margin-bottom: 30px;
+}
+
+.header h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: rgb(114, 241, 178);
+    text-align: center;
+    font-weight: 600;
+}
+
+.btn2-container{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#inputPassword,
+#confirmPassword{
+    padding: 4px;
+    height: 20px;
+    width: 70%;
+    border-radius: 15px;
+    outline: none;
+    margin-right: 10px;
+    padding-left: 15px;
+    border: 1px solid rgb(38, 116, 73);
+}
+
+#inputPassword:focus-within,
+#confirmPassword:focus-within{
+    border: 1px solid rgb(114, 241, 178);
+}
+
+#firstShowAndHideButton,
+#secondShowAndHideButton,
+#loginButton{
+    padding: 4px 8px;
+    border-radius: 5px;
+    background-color: rgb(114, 241, 178);
+    cursor: pointer;
+}
+
+.login-btn-container{
+    text-align: center;
+}
+
+#loginButton{
+    padding: 7px 0;
+    width: 100%;
+}
